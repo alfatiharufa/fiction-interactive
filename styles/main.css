@@ -1,0 +1,35 @@
+/* Ce code permet de neutraliser les marges par défaut */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+
+/* Ce code permet de centrer les éléments dans la corps de la page */
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	height: 100vh;
+	flex-wrap: wrap;
+}
+
+/* Ce code définit une largeur d'image de 500px */
+img {
+	width: 500px;
+}
+
+/* Ce code définit les paramètres du bloc contenant l'histoire" */
+.histoire {
+	/* définir une largeur de 500px */
+	width: 500px; 
+	/* ajout d'une bordure noire de 1px */
+	border: 1px solid black; 
+	/* ajout d'une marge de 15px */
+	padding: 15px; 
+}
